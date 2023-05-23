@@ -32,7 +32,7 @@
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
         "laravel/telescope": "^4.4",
-        "mockery/mockery": "^1.4.2",
+        "mockery/mockery": "^1.5",
         "nunomaduro/collision": "^5.0",
         "pestphp/pest": "^1.13",
         "pestphp/pest-plugin-laravel": "^1.1",
@@ -93,7 +93,10 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
